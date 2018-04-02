@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="63.031" tests="13" errors="0" skipped="0" failures="4">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_25\bin"/>
+    <property name="java.vm.version" value="25.25-b02"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\NaveenMavenProject\FreeCRMTest"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\NaveenMavenProject\FreeCRMTest"/>
+    <property name="java.runtime.version" value="1.8.0_25-b18"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_25\lib\endorsed"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.io.tmpdir" value="C:\Users\Ganesh\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="D:\NaveenMavenProject\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf8729096516493239041.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_25\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_25/bin/client;C:/Program Files/Java/jre1.8.0_25/bin;C:/Program Files/Java/jre1.8.0_25/lib/i386;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Universal Extractor;C:\Program Files\Universal Extractor\bin;C:\Program Files\Skype\Phone\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw32\bin;C:\Program Files\Git\usr\bin\;C:\apache-maven-3.5.3\bin;C:\apache-maven-3.5.3\bin;C:\apache-ant-1.9.7\bin;C:\Program Files\Java\jdk1.8.0_25\bin;C:\Program Files\Java\jre1.8.0_25\bin;C:\Windows\System32;D:\Software\Eclipse All\oxygen\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\Ganesh"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Ganesh"/>
+    <property name="java.class.path" value="D:\Software\Eclipse All\oxygen\eclipse\plugins\org.eclipse.m2e.maven.runtime_1.8.2.20171007-0216\jars\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_25"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_25"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_25\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_25\lib\resources.jar;C:\Program Files\Java\jre1.8.0_25\lib\rt.jar;C:\Program Files\Java\jre1.8.0_25\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_25\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_25\lib\jce.jar;C:\Program Files\Java\jre1.8.0_25\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_25\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_25\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\NaveenMavenProject\FreeCRMTest\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="loginPageTest" classname="com.crm.qa.testcases.LoginPageTest" time="0.025"/>
+  <testcase name="verifyContactsLabel" classname="com.crm.qa.testcases.ContactsPageTest" time="5.093"/>
+  <testcase name="verifyHomePageTitleTest" classname="com.crm.qa.testcases.HomePageTest" time="0.031"/>
+  <testcase name="crmLogoImageTest" classname="com.crm.qa.testcases.LoginPageTest" time="0.135"/>
+  <testcase name="selectSingleContactsByName" classname="com.crm.qa.testcases.ContactsPageTest" time="15.783">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(text(),&apos;Ganesh Pawale&apos;)]//parent::td[@class=&apos;datalistrow&apos;]//preceding-sibling::td[@class=&apos;datalistrow&apos;]//child::input[@name=&apos;contact_id&apos;]&quot;}&#10;  (Session info: chrome=65.0.3325.181)&#10;  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;GANESH-PC&apos;, ip: &apos;192.168.31.219&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_25&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Ganesh\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}&#10;Session ID: fa704f2dd27c7b8a4d69c36354367b77&#10;*** Element info: {Using=xpath, value=//a[contains(text(),&apos;Ganesh Pawale&apos;)]//parent::td[@class=&apos;datalistrow&apos;]//preceding-sibling::td[@class=&apos;datalistrow&apos;]//child::input[@name=&apos;contact_id&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Ganesh Pawale')]//parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//child::input[@name='contact_id']"}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'GANESH-PC', ip: '192.168.31.219', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Ganesh\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: fa704f2dd27c7b8a4d69c36354367b77
+*** Element info: {Using=xpath, value=//a[contains(text(),'Ganesh Pawale')]//parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//child::input[@name='contact_id']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:103)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$$Lambda$127/30460305.invoke(Unknown Source)
+	at com.sun.proxy.$Proxy6.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:186)
+	at com.crm.qa.pages.ContactsPage.selectContactsByName(ContactsPage.java:44)
+	at com.crm.qa.testcases.ContactsPageTest.selectSingleContactsByName(ContactsPageTest.java:51)
+</failure>
+    <system-out><![CDATA[Before navigating to: 'https://www.freecrm.com'
+Navigated to:'https://www.freecrm.com'
+Trying to find Element By : By.name: username
+Found Element By : By.name: username
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.xpath: //input[@type='submit' and @value='Login']
+Found Element By : By.xpath: //input[@type='submit' and @value='Login']
+Trying to click on: [[ChromeDriver: chrome on XP (fa704f2dd27c7b8a4d69c36354367b77)] -> xpath: //input[@type='submit' and @value='Login']]
+Clicked on: [[ChromeDriver: chrome on XP (fa704f2dd27c7b8a4d69c36354367b77)] -> xpath: //input[@type='submit' and @value='Login']]
+Trying to find Element By : By.xpath: //a[contains(text(),'Contacts')]
+Found Element By : By.xpath: //a[contains(text(),'Contacts')]
+Trying to click on: [[ChromeDriver: chrome on XP (fa704f2dd27c7b8a4d69c36354367b77)] -> xpath: //a[contains(text(),'Contacts')]]
+Clicked on: [[ChromeDriver: chrome on XP (fa704f2dd27c7b8a4d69c36354367b77)] -> xpath: //a[contains(text(),'Contacts')]]
+Trying to find Element By : By.xpath: //a[contains(text(),'Ganesh Pawale')]//parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//child::input[@name='contact_id']
+Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Ganesh Pawale')]//parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//child::input[@name='contact_id']"}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'GANESH-PC', ip: '192.168.31.219', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Ganesh\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: fa704f2dd27c7b8a4d69c36354367b77
+*** Element info: {Using=xpath, value=//a[contains(text(),'Ganesh Pawale')]//parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//child::input[@name='contact_id']}
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73) on port 2131
+Only local connections are allowed.
+Apr 02, 2018 4:03:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="verifyUsernameTest" classname="com.crm.qa.testcases.HomePageTest" time="0.374"/>
+  <testcase name="loginTest" classname="com.crm.qa.testcases.LoginPageTest" time="8.986"/>
+  <testcase name="selectMultipleContactsByName" classname="com.crm.qa.testcases.ContactsPageTest" time="15.972">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(text(),&apos;Ganesh Pawale&apos;)]//parent::td[@class=&apos;datalistrow&apos;]//preceding-sibling::td[@class=&apos;datalistrow&apos;]//child::input[@name=&apos;contact_id&apos;]&quot;}&#10;  (Session info: chrome=65.0.3325.181)&#10;  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;GANESH-PC&apos;, ip: &apos;192.168.31.219&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_25&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Ganesh\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}&#10;Session ID: 64e2ea19c1ee3a956091ec0097162985&#10;*** Element info: {Using=xpath, value=//a[contains(text(),&apos;Ganesh Pawale&apos;)]//parent::td[@class=&apos;datalistrow&apos;]//preceding-sibling::td[@class=&apos;datalistrow&apos;]//child::input[@name=&apos;contact_id&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Ganesh Pawale')]//parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//child::input[@name='contact_id']"}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'GANESH-PC', ip: '192.168.31.219', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Ganesh\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 64e2ea19c1ee3a956091ec0097162985
+*** Element info: {Using=xpath, value=//a[contains(text(),'Ganesh Pawale')]//parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//child::input[@name='contact_id']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:103)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$$Lambda$127/30460305.invoke(Unknown Source)
+	at com.sun.proxy.$Proxy6.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:186)
+	at com.crm.qa.pages.ContactsPage.selectContactsByName(ContactsPage.java:44)
+	at com.crm.qa.testcases.ContactsPageTest.selectMultipleContactsByName(ContactsPageTest.java:60)
+</failure>
+    <system-out><![CDATA[Before navigating to: 'https://www.freecrm.com'
+Navigated to:'https://www.freecrm.com'
+Trying to find Element By : By.name: username
+Found Element By : By.name: username
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.xpath: //input[@type='submit' and @value='Login']
+Found Element By : By.xpath: //input[@type='submit' and @value='Login']
+Trying to click on: [[ChromeDriver: chrome on XP (64e2ea19c1ee3a956091ec0097162985)] -> xpath: //input[@type='submit' and @value='Login']]
+Clicked on: [[ChromeDriver: chrome on XP (64e2ea19c1ee3a956091ec0097162985)] -> xpath: //input[@type='submit' and @value='Login']]
+Trying to find Element By : By.xpath: //a[contains(text(),'Contacts')]
+Found Element By : By.xpath: //a[contains(text(),'Contacts')]
+Trying to click on: [[ChromeDriver: chrome on XP (64e2ea19c1ee3a956091ec0097162985)] -> xpath: //a[contains(text(),'Contacts')]]
+Clicked on: [[ChromeDriver: chrome on XP (64e2ea19c1ee3a956091ec0097162985)] -> xpath: //a[contains(text(),'Contacts')]]
+Trying to find Element By : By.xpath: //a[contains(text(),'Mangesh Pawale')]//parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//child::input[@name='contact_id']
+Found Element By : By.xpath: //a[contains(text(),'Mangesh Pawale')]//parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//child::input[@name='contact_id']
+Trying to click on: [[ChromeDriver: chrome on XP (64e2ea19c1ee3a956091ec0097162985)] -> xpath: //a[contains(text(),'Mangesh Pawale')]//parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//child::input[@name='contact_id']]
+Clicked on: [[ChromeDriver: chrome on XP (64e2ea19c1ee3a956091ec0097162985)] -> xpath: //a[contains(text(),'Mangesh Pawale')]//parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//child::input[@name='contact_id']]
+Trying to find Element By : By.xpath: //a[contains(text(),'Ganesh Pawale')]//parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//child::input[@name='contact_id']
+Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Ganesh Pawale')]//parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//child::input[@name='contact_id']"}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'GANESH-PC', ip: '192.168.31.219', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Ganesh\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 64e2ea19c1ee3a956091ec0097162985
+*** Element info: {Using=xpath, value=//a[contains(text(),'Ganesh Pawale')]//parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//child::input[@name='contact_id']}
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73) on port 19154
+Only local connections are allowed.
+Apr 02, 2018 4:04:52 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="verifyContactsLinkTest" classname="com.crm.qa.testcases.HomePageTest" time="0.373"/>
+  <testcase name="validateCreateNewContact" classname="com.crm.qa.testcases.ContactsPageTest" time="16.259"/>
+  <testcase name="validateCreateNewContact" classname="com.crm.qa.testcases.ContactsPageTest" time="16.265"/>
+  <testcase name="validateCreateNewContact" classname="com.crm.qa.testcases.ContactsPageTest" time="2.465">
+    <failure message="element not visible&#10;  (Session info: chrome=65.0.3325.181)&#10;  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;GANESH-PC&apos;, ip: &apos;192.168.31.219&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_25&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Ganesh\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}&#10;Session ID: 35aa3607f03fb171591660e810d36fdc" type="org.openqa.selenium.ElementNotVisibleException">org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'GANESH-PC', ip: '192.168.31.219', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Ganesh\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 35aa3607f03fb171591660e810d36fdc
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:368)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$$Lambda$129/18130112.invoke(Unknown Source)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:380)
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at com.crm.qa.pages.HomePage.clickNewContactLink(HomePage.java:73)
+	at com.crm.qa.testcases.ContactsPageTest.validateCreateNewContact(ContactsPageTest.java:67)
+</failure>
+    <system-out><![CDATA[Before navigating to: 'https://www.freecrm.com'
+Navigated to:'https://www.freecrm.com'
+Trying to find Element By : By.name: username
+Found Element By : By.name: username
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.xpath: //input[@type='submit' and @value='Login']
+Found Element By : By.xpath: //input[@type='submit' and @value='Login']
+Trying to click on: [[ChromeDriver: chrome on XP (35aa3607f03fb171591660e810d36fdc)] -> xpath: //input[@type='submit' and @value='Login']]
+Clicked on: [[ChromeDriver: chrome on XP (35aa3607f03fb171591660e810d36fdc)] -> xpath: //input[@type='submit' and @value='Login']]
+Trying to find Element By : By.xpath: //a[contains(text(),'Contacts')]
+Found Element By : By.xpath: //a[contains(text(),'Contacts')]
+Trying to click on: [[ChromeDriver: chrome on XP (35aa3607f03fb171591660e810d36fdc)] -> xpath: //a[contains(text(),'Contacts')]]
+Clicked on: [[ChromeDriver: chrome on XP (35aa3607f03fb171591660e810d36fdc)] -> xpath: //a[contains(text(),'Contacts')]]
+Exception occured: org.openqa.selenium.UnsupportedCommandException: actions
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'GANESH-PC', ip: '192.168.31.219', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_25'
+Driver info: driver.version: EventFiringWebDriver
+Trying to find Element By : By.xpath: //a[contains(text(),'Contacts')]
+Found Element By : By.xpath: //a[contains(text(),'Contacts')]
+Trying to find Element By : By.xpath: //a[contains(text(),'New Contact')]
+Found Element By : By.xpath: //a[contains(text(),'New Contact')]
+Trying to click on: [[ChromeDriver: chrome on XP (35aa3607f03fb171591660e810d36fdc)] -> xpath: //a[contains(text(),'New Contact')]]
+Exception occured: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'GANESH-PC', ip: '192.168.31.219', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Ganesh\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 35aa3607f03fb171591660e810d36fdc
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73) on port 35222
+Only local connections are allowed.
+Apr 02, 2018 4:07:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="validateCreateNewContact" classname="com.crm.qa.testcases.ContactsPageTest" time="17.401">
+    <failure message="Cannot locate element with text: Miss.&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;GANESH-PC&apos;, ip: &apos;192.168.31.219&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_25&apos;&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Cannot locate element with text: Miss.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'GANESH-PC', ip: '192.168.31.219', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_25'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:151)
+	at com.crm.qa.pages.ContactsPage.createNewContact(ContactsPage.java:52)
+	at com.crm.qa.testcases.ContactsPageTest.validateCreateNewContact(ContactsPageTest.java:69)
+</failure>
+    <system-out><![CDATA[Before navigating to: 'https://www.freecrm.com'
+Navigated to:'https://www.freecrm.com'
+Trying to find Element By : By.name: username
+Found Element By : By.name: username
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.xpath: //input[@type='submit' and @value='Login']
+Found Element By : By.xpath: //input[@type='submit' and @value='Login']
+Trying to click on: [[ChromeDriver: chrome on XP (2366e8d5a646790d06b2e61d7bb741b4)] -> xpath: //input[@type='submit' and @value='Login']]
+Clicked on: [[ChromeDriver: chrome on XP (2366e8d5a646790d06b2e61d7bb741b4)] -> xpath: //input[@type='submit' and @value='Login']]
+Trying to find Element By : By.xpath: //a[contains(text(),'Contacts')]
+Found Element By : By.xpath: //a[contains(text(),'Contacts')]
+Trying to click on: [[ChromeDriver: chrome on XP (2366e8d5a646790d06b2e61d7bb741b4)] -> xpath: //a[contains(text(),'Contacts')]]
+Clicked on: [[ChromeDriver: chrome on XP (2366e8d5a646790d06b2e61d7bb741b4)] -> xpath: //a[contains(text(),'Contacts')]]
+Exception occured: org.openqa.selenium.UnsupportedCommandException: actions
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'GANESH-PC', ip: '192.168.31.219', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_25'
+Driver info: driver.version: EventFiringWebDriver
+Trying to find Element By : By.xpath: //a[contains(text(),'Contacts')]
+Found Element By : By.xpath: //a[contains(text(),'Contacts')]
+Trying to find Element By : By.xpath: //a[contains(text(),'New Contact')]
+Found Element By : By.xpath: //a[contains(text(),'New Contact')]
+Trying to click on: [[ChromeDriver: chrome on XP (2366e8d5a646790d06b2e61d7bb741b4)] -> xpath: //a[contains(text(),'New Contact')]]
+Clicked on: [[ChromeDriver: chrome on XP (2366e8d5a646790d06b2e61d7bb741b4)] -> xpath: //a[contains(text(),'New Contact')]]
+Trying to find Element By : By.xpath: //select[@class='select' and @name='title']
+Found Element By : By.xpath: //select[@class='select' and @name='title']
+Trying to find Element By : By.xpath: //select[@class='select' and @name='title']
+Found Element By : By.xpath: //select[@class='select' and @name='title']
+Trying to find Element By : By.xpath: //select[@class='select' and @name='title']
+Found Element By : By.xpath: //select[@class='select' and @name='title']
+Trying to find Element By : By.xpath: .//option[normalize-space(.) = "Miss."]
+Found Element By : By.xpath: .//option[normalize-space(.) = "Miss."]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73) on port 24246
+Only local connections are allowed.
+Apr 02, 2018 4:07:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+</testsuite>
