@@ -1,5 +1,5 @@
 #surefire
-#Mon Apr 02 15:21:31 IST 2018
+#Mon Apr 02 15:55:10 IST 2018
 tc.3=com.crm.qa.testcases.RoughTest
 tc.2=com.crm.qa.testcases.LoginPageTest
 tc.1=com.crm.qa.testcases.HomePageTest
